@@ -189,12 +189,10 @@ p {
 }
 
 .footer {
+    /*Hides the footer element for page visitors.*/
+    display: none;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }

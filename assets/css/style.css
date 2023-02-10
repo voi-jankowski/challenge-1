@@ -189,7 +189,7 @@ p {
 }
 
 .footer {
-    /*Hides the footer element for page visitors.*/
+    /*Hides the footer element in a browser.*/
     display: none;
     padding: 30px;
     clear: both;

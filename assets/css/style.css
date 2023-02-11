@@ -22,6 +22,12 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    /*Underlines and changes the colour shade of links when you hover over them.*/
+    color: #d9dcd6;
+    text-decoration: underline;
+}
+
 
 /* || HEADER ELEMENTS STYLES */
 

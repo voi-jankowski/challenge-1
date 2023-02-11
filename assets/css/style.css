@@ -69,6 +69,14 @@ li {
     margin-left: 20px;
 }
 
+.content-article{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 .float-left {
     max-height: 200px;
     float: left;
@@ -80,34 +88,6 @@ li {
     float: right;
     margin-left: 25px;
 }
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
 
 h2 {
     margin-bottom: 20px;

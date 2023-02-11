@@ -17,6 +17,7 @@ p {
 }
 
 a {
+     /*Changes the default color for the links.*/
     color: #ffffff;
     text-decoration: none;
 }
@@ -30,16 +31,19 @@ header {
 }
 
 h1 {
+     /*Eliminated a line-break after the logo, so it can sit next to the navigation links.*/
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
 }
 
 .seo {
+     /*Assignes different colour to 3 inner letters of the logo.*/
     color: #d9dcd6;
 }
 
 .nav {
+    /*Assignes style to the navigation links.*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -48,6 +52,7 @@ h1 {
 }
 
 .nav li {
+    /*Creates horizontal navigation links.*/
     display: inline-block;
     margin-left: 25px;
 }
@@ -58,6 +63,7 @@ h1 {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+     /*Centres the image and scales the image to fill the figure element.*/
     background-size: cover;
     background-position: center;
 }

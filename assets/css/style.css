@@ -54,7 +54,7 @@ li {
 }
 
 
-#hero {
+#image-top {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -63,7 +63,7 @@ li {
 }
 
 
-#content {
+#content-section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -77,13 +77,13 @@ li {
     color: #ffffff;
 }
 
-.float-left {
+.image-left {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.image-right {
     max-height: 200px;
     float: right;
     margin-left: 25px;
@@ -94,7 +94,7 @@ h2 {
     font-size: 36px;
 }
 
-#benefits {
+#benefits-section {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -106,7 +106,6 @@ h2 {
 
 .benefits-element {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 h3 {

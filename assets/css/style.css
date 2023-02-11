@@ -39,7 +39,7 @@ h1 {
     color: #d9dcd6;
 }
 
-ul {
+.nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -47,7 +47,7 @@ ul {
     list-style-type: none;
 }
 
-li {
+.nav li {
     display: inline-block;
     margin-left: 25px;
 }

@@ -22,7 +22,7 @@ a {
 }
 
 
-/* || SITEWIDE */
+/* || HEADER ELEMENTS STYLES */
 
 header {
     padding: 20px;
@@ -52,6 +52,7 @@ li {
     margin-left: 25px;
 }
 
+/* || BODY ELEMENTS STYLES */
 
 #image-top {
     height: 800px;
@@ -66,6 +67,11 @@ li {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .content-article{
@@ -87,11 +93,6 @@ li {
     margin-left: 25px;
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 #benefits-section {
     margin-right: 20px;
     padding: 20px;
@@ -102,13 +103,13 @@ h2 {
     background-color: #2589bd;
 }
 
-.benefits-element {
-    margin-bottom: 32px;
-}
-
 h3 {
     margin-bottom: 10px;
     text-align: center;
+}
+
+.benefits-element {
+    margin-bottom: 32px;
 }
 
 .benefits-symbol {
@@ -117,6 +118,7 @@ h3 {
     max-width: 150px;
 }
 
+/* || FOOTER ELEMENTS STYLES */
 
 .footer {
     /*Hides the footer element in a browser.*/

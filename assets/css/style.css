@@ -70,8 +70,9 @@ h1 {
 
 
 #content-section {
-    width: 75%;
+    /*Allows to assign the width of the block and position next section next to it.*/
     display: inline-block;
+    width: 75%;
     margin-left: 20px;
 }
 
@@ -102,6 +103,7 @@ h2 {
 #benefits-section {
     margin-right: 20px;
     padding: 20px;
+    /*Doesn't allow other elements to float left or right of it.*/
     clear: both;
     float: right;
     width: 20%;

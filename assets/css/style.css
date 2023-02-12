@@ -66,12 +66,12 @@ h1 {
 /* || BODY ELEMENTS STYLES */
 
 #image-top {
+    /*Centres the image and scales the image to fill the figure element.*/
+    background-size: cover;
+    background-position: center;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-     /*Centres the image and scales the image to fill the figure element.*/
-    background-size: cover;
-    background-position: center;
 }
 
 
@@ -107,11 +107,11 @@ h2 {
 }
 
 #benefits-section {
-    margin-right: 20px;
-    padding: 20px;
     /*Doesn't allow other elements to float left or right of it.*/
     clear: both;
     float: right;
+    margin-right: 20px;
+    padding: 20px;
     width: 20%;
     height: 100%;
     background-color: #2589bd;
@@ -127,6 +127,7 @@ h3 {
 }
 
 .benefits-symbol {
+    /*Positions the symbols in the centre of the mother element, placed block style.*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
